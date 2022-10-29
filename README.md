@@ -27,10 +27,6 @@ Home view:
   <img src="Images/SchermataHome.jpg">
 </p>
 
-Photo and elaboration views:
-<p align="left">
-  <img src="Images/photo1.jpg">
-</p>
 <p align="left">
   <img src="Images/photo2.jpg">
 </p>
