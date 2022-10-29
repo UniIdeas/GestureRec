@@ -20,7 +20,7 @@ registered.
 screen (feature designed to allow a user to speak in
 quickly to a person with deafness).
 
-## Neural network
+## [Neural network](https://github.com/UniIdeas/GestureRec/tree/main/data/NeuralNetwork)
 TensorFlow 2.7.0 with Keras was used for the development of the network.
 the MobileNet model was used, given its predisposition for mobile devices thanks to the lightness and limited use of resources.
 For the training of the network a dataset was used consisting of about 7760 images for each of the 29 classes (the letters of the alphabet and some standard gestures), for a total of 225040 images.
