@@ -24,26 +24,13 @@ quickly to a person with deafness).
 ## Screenshots of the app
 Home view:
 <p align="left">
-  <img src="Images/SchermataHome.jpg">
-</p>
-
-<p align="right">
-  <img src="Images/photo2.jpg">
+  <img src="Images/SchermataHome.jpg" style="width:300px;height:500px"> &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
+  <img src="Images/photo2.jpg" style="width:300px;height:500px">
 </p>
 
 Video and elaboration views:
 <p align="left">
-  <img src="Images/video1.jpg">
-<p align="left">
-  <img src="Images/video2.jpg">
-</p>
-
-Audio elaboration views:
-<p align="left">
-  <img src="Images/audio1.jpg">
-</p>
-<p align="left">
-  <img src="Images/audio2.jpg">
+  <img src="Images/video2.jpg" >
 </p>
 
 ## Neural network
