@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GestureRec</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for button name -->
+    <string name="picture_bt">scatta foto</string>
+    <string name="mostra">mostra</string>
+    <string name="analysis_bt">elabora</string>
+    <string name="bRecord">start recording</string>
+    <string name="title_activity_main2">PlayVideoActivity</string>
+    <!-- main activity -->
+    <string name="goPhoto">Foto</string>
+    <string name="goVideo">Video</string>
+    <string name="goAudio">Audio</string>
+    <string name="mainText">Modalità video: registra ed elabora un video</string>
+    <string name="mainText2">Modalità foto: scatta ed elabora una foto</string>
+    <string name="mainText3">Modalità audio: registra e trascrivi un audio</string>
+
+    <string name="rielabora">Torna indietro!</string>
+    <string name="home">Torna alla home!</string>
+</resources>

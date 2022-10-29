@@ -1,0 +1,14 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+
+}
+rootProject.name = "Es_Sistemi_Digitali"
+def opencvsdk='C:\\Users\\probook\\Downloads\\OpenCV-android-sdk'
+include ':app'
+include ':opencv'
+project(':opencv').projectDir = new File(opencvsdk + '/sdk')
