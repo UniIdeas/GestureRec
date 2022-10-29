@@ -34,7 +34,8 @@ Neural network model:
 
 ## Model Results
 <p align="left">
-  <img src="Images/res1.jpg" style="width:300px;height:500px"> 
+  <img src="modelTrainingImages/model1.jpg" style="width:350px;height:300px"> &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
+  <img src="modelTrainingImages/model2.jpg" style="width:350px;height:300px">
 </p>
 
 ## Screenshots of the app
