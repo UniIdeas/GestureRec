@@ -34,7 +34,6 @@ Home view:
 Video and elaboration views:
 <p align="left">
   <img src="Images/video1.jpg">
-</p>
 <p align="left">
   <img src="Images/video2.jpg">
 </p>
