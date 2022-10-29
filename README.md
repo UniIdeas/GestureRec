@@ -27,7 +27,7 @@ Home view:
   <img src="Images/SchermataHome.jpg">
 </p>
 
-<p align="left">
+<p align="right">
   <img src="Images/photo2.jpg">
 </p>
 
