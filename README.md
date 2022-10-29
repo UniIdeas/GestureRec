@@ -30,7 +30,7 @@ Dataset: 80% training set, 20% validation set.
 
 The model [NeuralNetwork.h5](https://github.com/UniIdeas/GestureRec/blob/main/data/NeuralNetwork/NeuralNetwork.h5) was made with the following code: [NeuralNetwork.py](https://github.com/UniIdeas/GestureRec/blob/main/data/NeuralNetwork/NeuralNetwork.py).<br>
 The training was carried out for 10 epochs with a final accuracy of 99.76%.
-It was later converted to a [tflite model](https://github.com/UniIdeas/GestureRec/blob/main/data/NeuralNetwork/model.tflite) via the [toTFlite.py] (https://github.com/UniIdeas/GestureRec/blob/main/data/NeuralNetwork/toTFlite.py) file for use on mobile [app](https://github.com/UniIdeas/GestureRec/tree/main/data/Android_app/Es_Sistemi_Digitali).
+It was later converted to a [tflite model](https://github.com/UniIdeas/GestureRec/blob/main/data/NeuralNetwork/model.tflite) via the [toTFlite.py](https://github.com/UniIdeas/GestureRec/blob/main/data/NeuralNetwork/toTFlite.py) file for use on mobile [app](https://github.com/UniIdeas/GestureRec/tree/main/data/Android_app/Es_Sistemi_Digitali).
 
 
 Neural network model:
