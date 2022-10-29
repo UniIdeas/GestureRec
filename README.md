@@ -20,24 +20,35 @@ registered.
 screen (feature designed to allow a user to speak in
 quickly to a person with deafness).
 
+## Neural network
+TensorFlow 2.7.0 with Keras was used for the development of the network.
+the MobileNet model was used, given its predisposition for mobile devices thanks to the lightness and limited use of resources.
+For the training of the network a dataset was used consisting of about 7760 images for each of the 29 classes (the letters of the alphabet and some standard gestures), for a total of 225040 images.
+
+Dataset: 80% training set, 20% validation set.
+
+Neural network model:
+<p align="left">
+  <img src="Images/neural.jpg">
+</p>
+
+## Model Results
+<p align="left">
+  <img src="Images/res1.jpg" style="width:300px;height:500px"> 
+</p>
 
 ## Screenshots of the app
-Home view:
+Some screenshots from the app (to see other screenshots go to the dir [Images](https://github.com/UniIdeas/GestureRec/tree/main/Images)):
 <p align="left">
   <img src="Images/SchermataHome.jpg" style="width:300px;height:500px"> &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
   <img src="Images/photo2.jpg" style="width:300px;height:500px">
 </p>
 
-Video and elaboration views:
+
 <p align="left">
   <img src="Images/video2.jpg" >
 </p>
 
-## Neural network
-Neural network model:
-<p align="left">
-  <img src="Images/neural.jpg">
-</p>
 
 ## Credits 🫂
 - [Luca Berardi](https://github.com/LucaBerardi6)
