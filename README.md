@@ -51,6 +51,15 @@ Audio elaboration views:
   <img src="Images/audio2.jpg">
 </p>
 
+## Neural network
+Neural network model:
+<p align="left">
+  <img src="Images/neural.jpg">
+</p>
 
+## Credits 🫂
+- [Luca Berardi](https://github.com/LucaBerardi6)
+- [Marco Motamed](https://github.com/MotaMarco)
+- [Giuseppe Sergi](https://github.com/GiuseppeSergi3) 
 
 
