@@ -48,7 +48,7 @@ def convert_bytes(size, unit=None):
         return print('File size: ' + str(size) + ' bytes')
 
 #image_path is the path that contains the images used to train the model
-image_path = "C:\\Users\\marco\\OneDrive\\Desktop\\ToolsReteNeurale\\ProgettoReteNeuraleSperiamo\\asl_alphabet_train"
+image_path = ""
 
 
 
