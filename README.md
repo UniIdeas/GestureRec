@@ -5,7 +5,7 @@ Digital Systems project - Computer Engineering at Alma Mater Studiorum (Universi
 This is a university project created for the Digital Systems course held by Professor Matteo Poggi and Professor Stefano Mattoccia at the university of Bologna. :books:
 
 ## Abstract
-The Gesture Rec application is an application for Android devices designed for
+The [Gesture Rec application](https://github.com/UniIdeas/GestureRec/tree/main/data/Android_app/Es_Sistemi_Digitali) is an application for Android devices designed for
 support for people with dumbness and/or deafness. It allows, in fact, to
 recognize the various gestures of sign language using the camera of the
 device and to transcribe what is said.
