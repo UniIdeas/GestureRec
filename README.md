@@ -55,8 +55,8 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
 </p>
 
 <p align="left">
-<video src="Images/Elementi%20multimediali1.mp4" width=700  height=400 poster="Images/SchermataHome.jpg">
-Il video non può essere riprodotto sul tuo browser.
+<video width="320" height="240" controls>
+    <source src="https://github.com/UniIdeas/GestureRec/blob/main/Images/Elementi%20multimediali1.mp4" type="video/mp4">
 </video>
 </p>
 
