@@ -67,6 +67,6 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
 - [Examples](https://github.com/tensorflow/examples)
 - [QuickStart](https://www.tensorflow.org/lite/android/quickstart)
 - [Tensorflow](https://www.tensorflow.org/)
-- [KerasApplications](https://keras.io/api/applications/)
+- [Keras](https://keras.io/api/applications/)
 
 
