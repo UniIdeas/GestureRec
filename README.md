@@ -48,7 +48,9 @@ Neural network model:
 ## Screenshots of the app
 Some screenshots from the app (to see other screenshots go to the dir [Images](https://github.com/UniIdeas/GestureRec/tree/main/Images)):
 <p align="left">
-  <img src="Images/SchermataHome.jpg" style="width:300px;height:500px"> &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
+  <img src="Images/SchermataHome.jpg" style="width:300px;height:500px"> <br>
+  <img src="Images/photo3.png" style="width:300px;height:500px">
+   &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
   <img src="Images/photo2.jpg" style="width:300px;height:500px">
 </p>
 
