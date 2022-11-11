@@ -1,7 +1,7 @@
 # GestureRec
 Digital Systems project - Computer Engineering at Alma Mater Studiorum (University of Bologna)
 
-## What is?
+## What about?
 This is a university project created for the Digital Systems course held by Professor Matteo Poggi and Professor Stefano Mattoccia at the university of Bologna. :books:
 
 ## Abstract
