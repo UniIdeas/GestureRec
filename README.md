@@ -61,13 +61,11 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
   
 </p>
 
-
-
-
-
+<!--
 <p align="left">
   <img src="Images/video2.jpg" >
 </p>
+-->
 
 
 
