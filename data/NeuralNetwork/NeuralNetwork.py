@@ -51,10 +51,6 @@ def convert_bytes(size, unit=None):
 image_path = ""
 
 
-
-
-##for other information: https://keras.rstudio.com/reference/fit.html
-
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
   image_path,
   validation_split=0.2,
@@ -113,74 +109,8 @@ reduce_lr = tf.keras.callbacks.ReduceLROnPlateau(monitor='val_loss', factor=0.2,
 
 callbacks = [reduce_lr,earlystop,checkpoint]
 
-'''
-##Data Augmentation //we don't use this
-data_augmentation = keras.Sequential(
-  [
-    layers.RandomFlip("horizontal",input_shape=(img_height,img_width,3)),
-    layers.RandomRotation(0.1),
-    layers.RandomZoom(0.1),
-  ]
-)'''
-
-##Another way to create the model in which Augmentation and dropout is applied
-'''
-model = keras.models.Sequential([
-  data_augmentation,
-  layers.Rescaling(1./255, input_shape=(img_height, img_width, 3)),
-  layers.Conv2D(16, 3, padding='same', activation='relu'),
-  layers.MaxPooling2D(),
-  layers.Conv2D(32, 3, padding='same', activation='relu'),
-  layers.MaxPooling2D(),
-  layers.Conv2D(64, 3, padding='same', activation='relu'),
-  layers.MaxPooling2D(),
-  layers.Dropout(0.2),
-  layers.Flatten(),
-  layers.Dense(512, activation='relu'),##non 512 perchè erano 30.000.000 di parametri e la rete risultava piu pesante
-  layers.Dense(num_classes)
-])
-
-##Compile the model
-
-model.compile(optimizer='adam',
-              loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-              metrics=['accuracy'])'''
-'''
-def keras_cnn_v2(input_shape):
-    #input layer
-    X_input = Input(input_shape)
-    #32 filters, with 5x5 kernel size
-    X = conv_bn_relu_block(X_input, 10, (5, 5))
-    #Maxpooling and dropout
-    X = MaxPooling2D((2, 2))(X)
-    X = Dropout(0.5)(X)
-    #run another CONV -> BN -> RELU block
-    X = ZeroPadding2D((1, 1))(X)
-    X = conv_bn_relu_block(X, 15)
-    X = MaxPooling2D((2, 2))(X)
-    X = Dropout(0.5)(X)
-    #run another CONV -> BN -> RELU block
-    X = ZeroPadding2D((1, 1))(X)
-    X = conv_bn_relu_block(X, 20)
-    X = MaxPooling2D((2, 2))(X)
-    X = Dropout(0.5)(X)
-    #flatten
-    X = Flatten()(X)
-    #dense layer
-    X = Dense(num_classes, activation='softmax')(X)
-    model = models.Model(inputs = X_input, outputs = X, name='keras_lr')
-    return model
-model = keras_cnn_v2((200, 200, 3))
-'''
 
 input_shape=(img_height, img_width, 3)
-'''
-##foundation model
-model=tf.keras.applications.resnet50.ResNet50(
-    include_top=True, weights=None, input_tensor=None,
-    input_shape=input_shape, classes=4,##poi mettere 29
-    classifier_activation=None
-)'''
 
 
 mobile=tf.keras.applications.MobileNet(
@@ -232,7 +162,7 @@ val_loss = history.history['val_loss']
 ##Visualize training results
 #After applying data augmentation and tf.keras.layers.Dropout, there is less overfitting than before, and training and validation accuracy are closer aligned:
 
-'''
+
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
 
@@ -254,7 +184,7 @@ plt.plot(epochs_range, val_loss, label='Validation Loss')
 plt.legend(loc='upper right')
 plt.title('Training and Validation Loss')
 plt.show()
-'''
+
 
 #Instruction to save the model
 keras_file = "NeuralNetwork.h5"
