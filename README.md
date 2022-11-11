@@ -63,4 +63,8 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
 - [Marco Motamed](https://github.com/MotaMarco)
 - [Giuseppe Sergi](https://github.com/GiuseppeSergi3) 
 
+## Bibliograpy
+- [Examples](https://github.com/tensorflow/examples)
+- [QuickStart](https://www.tensorflow.org/lite/android/quickstart)
+
 
