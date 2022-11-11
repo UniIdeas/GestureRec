@@ -2,7 +2,7 @@
 import tensorflow as tf
 
 #Path to the neural network to convert to tflite
-model_dir="/content/NeuralNetwork.h5"
+model_dir="./NeuralNetwork.h5"
 
 model = tf.keras.models.load_model(model_dir)
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
