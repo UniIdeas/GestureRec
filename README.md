@@ -54,10 +54,17 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
   <img src="Images/photo2.jpg" style="width:300px;height:500px">
 </p>
 
+<p align="left">
+<video src="Images/Elementi%20multimediali1.mp4" width=700  height=400 poster="Images/SchermataHome.jpg">
+Il video non può essere riprodotto sul tuo browser.
+</video>
+</p>
 
 <p align="left">
   <img src="Images/video2.jpg" >
 </p>
+
+
 
 
 ## Credits 🫂
