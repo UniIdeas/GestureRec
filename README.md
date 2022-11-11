@@ -52,13 +52,14 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
   <img src="Images/photo3.png" style="width:300px;height:500px">
    &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
   <img src="Images/photo2.jpg" style="width:300px;height:500px">
-</p>
-
-<p align="left">
-<video width="320" height="240" controls>
+  <video width="320" height="240" controls>
     <source src="https://github.com/UniIdeas/GestureRec/blob/main/Images/Elementi%20multimediali1.mp4" type="video/mp4">
 </video>
 </p>
+
+
+
+
 
 <p align="left">
   <img src="Images/video2.jpg" >
