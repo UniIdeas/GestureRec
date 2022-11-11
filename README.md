@@ -66,6 +66,6 @@ Some screenshots from the app (to see other screenshots go to the dir [Images](h
 ## Bibliograpy
 - [Examples](https://github.com/tensorflow/examples)
 - [QuickStart](https://www.tensorflow.org/lite/android/quickstart)
-- [Tensorflow](https://www.tensorflow.org/tutorials/quickstart/beginner)
+- [Tensorflow](https://www.tensorflow.org/)
 
 
